@@ -20,7 +20,7 @@ In the given problem scenario of electronic devices, the solution involves adher
 
 **5. Avoidance of Unnecessary Methods:**
 
-- The `SmartDoorbell` class, representing a device without video or audio playback capabilities, does not implement the unnecessary `Play` and `Pause` methods. This aligns with the Interface Segregation Principle, preventing the inclusion of methods that are not applicable to the device.
+- The `SmartDoorBell` class, representing a device without video or audio playback capabilities, does not implement the unnecessary `Play` and `Pause` methods. This aligns with the Interface Segregation Principle, preventing the inclusion of methods that are not applicable to the device.
 
 **6. Clearer Contracts:**
 
