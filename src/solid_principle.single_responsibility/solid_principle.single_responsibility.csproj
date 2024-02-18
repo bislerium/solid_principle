@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="After\" />
-    <Folder Include="Before\" />
-  </ItemGroup>
-
 </Project>
