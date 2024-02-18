@@ -1,6 +1,4 @@
-# Solution Explanation Without Code
-
-## Problem Scenario: Notification Service
+# Problem Scenario: Notification Service
 
 In the initial design of the `NotificationService`, the class was tightly coupled to specific implementations of notification senders (`EmailSender`, `PushNotificationSender`, `SMSSender`). This tight coupling made the system less flexible and harder to extend, as any change or addition to the notification senders required modifications to the `NotificationService` itself.
 
