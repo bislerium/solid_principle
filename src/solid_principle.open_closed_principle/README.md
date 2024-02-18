@@ -2,11 +2,11 @@
 
 The Open-Closed Principle is one of the SOLID principles in object-oriented programming. It states that a class should be open for extension but closed for modification. In other words, the behavior of a module can be extended without modifying its source code.
 
-## Real-world Example:
+## Real-world Example
 
 Consider a car manufacturing company that produces various models. The company designs its car systems (engine, suspension, etc.) to be open for extension. When a new model is introduced, engineers can add new features (extensions) without modifying the existing systems. This allows the company to continually create new car models without changing the fundamental design of their existing systems.
 
-## Key Points and Benefits:
+## Key Points and Benefits
 
 1. **Flexibility and Extensibility:**
    - The Open-Closed Principle promotes flexibility by allowing new functionality to be added without altering existing code. This extensibility is crucial for adapting to changing requirements or introducing new features.
