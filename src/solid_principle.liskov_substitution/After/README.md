@@ -1,4 +1,4 @@
-# Problem:
+# Problem
 
 The **Liskov Substitution Principle (LSP)** states that objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. The problem arises when this principle is violated, typically due to incorrect inheritance relationships.
 
@@ -10,7 +10,7 @@ In the Before example provided:
 
 When an object of type `Square` is assigned to a variable of type `Rectangle`, issues may arise. For instance, if the width and height are set independently, as is common for a `Rectangle`, the `Square` object might not maintain its intended behavior.
 
-# Solution:
+# Solution
 
 To adhere to the Liskov Substitution Principle, a solution involves rethinking the design to avoid unexpected behaviors when substituting subclasses for their superclasses. In this context, it often means reconsidering the use of inheritance.
 
