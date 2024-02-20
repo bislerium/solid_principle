@@ -4,7 +4,7 @@
     {
         private readonly EmailSender _emailSender;
         private readonly SMSSender _smsSender;
-        private readonly PushNotificationSender _pushNotificationSender; 
+        private readonly PushNotificationSender _pushNotificationSender;
         // Add for new channel.
 
         public NotificationService()

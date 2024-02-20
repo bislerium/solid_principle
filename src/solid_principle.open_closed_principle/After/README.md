@@ -1,14 +1,17 @@
 # OCP-Compliant Solution: Shipping Costs Calculation
 
 **Abstract Product Class:**
+
 - Introduces an abstract `Product` class with an abstract method `CalculateShippingCost()`.
 - Serves as the base for all product types, defining a common contract for calculating shipping costs.
 
 **Concrete Product Classes (`StandardProduct`, `OverSizedProduct`, `FragileProduct`):**
+
 - Implement the `Product` class and provide their own specific implementation of the `CalculateShippingCost` method.
 - Each product type encapsulates its shipping cost logic, ensuring a clear separation of concerns.
 
 **Shipping Calculator:**
+
 - Accepts any object of type `Product` and calculates the shipping cost by invoking the `CalculateShippingCost` method.
 - The `ShippingCalculator` class remains closed for modification and open for extension, adhering to the Open-Closed Principle.
 
